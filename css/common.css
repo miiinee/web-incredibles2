@@ -1,0 +1,153 @@
+html {
+    scroll-behavior: smooth;
+}
+.btn-enter {
+    position: absolute;
+    color: transparent;
+    left: 41.5%;
+    top: 67.2%;
+    width: 13.4%;
+    height: 5%;
+    /*color: #fff;*/
+    /*border: 1px solid;*/
+}
+
+section#main, section#home, section#char, section#video, section#gallery {
+    width: 100%;
+    height: 100%;
+}
+
+section#main {
+    display: none;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.container-5 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container div.bg {
+    width: 100%;
+    height: 100%;
+}
+
+.container-5 div.bg {
+    /*background-size: 100% 100%;*/
+    width: 100%;
+    height: 100%;
+    /*display: none;*/
+    float: left;
+    position: absolute;
+    z-index: 0;
+}
+
+.container-5 div.on {
+    z-index: 10;
+}
+
+.container-5 .nav {
+    position: absolute;
+    right: 16.8%;
+    bottom: 37%;
+    width: 8.3%;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.container-5 .nav div {
+     color: transparent;
+    /*color: #fff;*/
+    font-size: calc(100vw/320 + 12px);
+    cursor: pointer;
+    width: calc(100vw/320 + 24px);
+    border-radius: calc((100vw/320 + 24px)/2);
+    border: 1px solid;
+    text-align: center;
+}
+
+section#home .container-5 .btn-home {
+    position: absolute;
+    left: 15.2%;
+    cursor: pointer;
+     color: transparent;
+    /*color: #fff;*/
+    font-size: calc(100vw/320 + 7px);
+    border: 1px solid;
+    width: 11.2%;
+    height: 4%;
+    letter-spacing: -0.9px;
+}
+
+section#home .container-5 .btn-home.char01 {
+    bottom: 35.9%;
+}
+
+section#home .container-5 .btn-home.char02 {
+    bottom: 53.3%;
+}
+
+section#home .container-5 .btn-home.char03 {
+    bottom: 22.2%;
+}
+
+section#home .container-5 .btn-home.char04 {
+    bottom: 35.9%;
+}
+
+section#home .container-5 .btn-home.char05 {
+    bottom: 38.5%;
+}
+
+section#home .home01 {
+    background: url("../images/01.home01.jpg") no-repeat;
+}
+
+section#home .home02 {
+    background: url("../images/01.home02.jpg") no-repeat;
+}
+
+section#home .home03 {
+    background: url("../images/01.home03.jpg") no-repeat;
+}
+
+section#home .home04 {
+    background: url("../images/01.home04.jpg") no-repeat;
+}
+
+section#home .home05 {
+    background: url("../images/01.home05.jpg") no-repeat;
+}
+
+section#char .char01 {
+    background: url("../images/02.char01.jpg") no-repeat;
+}
+
+section#char .char02 {
+    background: url("../images/02.char02.jpg") no-repeat;
+}
+
+section#char .char03 {
+    background: url("../images/02.char03.jpg") no-repeat;
+}
+
+section#char .char04 {
+    background: url("../images/02.char04.jpg") no-repeat;
+}
+
+section#char .char05 {
+    background: url("../images/02.char05.jpg") no-repeat;
+}
+
+section#video .video {
+    background: url("../images/03.video.jpg") no-repeat;
+}
+section#gallery .gallery {
+    background: url("../images/04.gallery.jpg") no-repeat;
+}
+
